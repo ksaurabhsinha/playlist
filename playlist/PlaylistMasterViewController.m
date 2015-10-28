@@ -6,13 +6,13 @@
 //  Copyright © 2015 saurabh. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "PlaylistMasterViewController.h"
 
-@interface ViewController ()
+@interface PlaylistMasterViewController ()
 
 @end
 
-@implementation ViewController
+@implementation PlaylistMasterViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

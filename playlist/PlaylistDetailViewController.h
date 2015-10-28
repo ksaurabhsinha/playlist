@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PlaylistDetailViewController.h
 //  playlist
 //
 //  Created by Kumar Saurabh Sinha on 28/10/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PlaylistDetailViewController : UIViewController
 
 @end
-
