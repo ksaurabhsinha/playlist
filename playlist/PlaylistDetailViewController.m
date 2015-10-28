@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.labelDetailPage.text = self.labelNewContent;
 }
 
 - (void)didReceiveMemoryWarning {

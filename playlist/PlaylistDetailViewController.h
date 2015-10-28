@@ -10,4 +10,8 @@
 
 @interface PlaylistDetailViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *labelDetailPage;
+
+@property (strong, nonatomic) NSString *labelNewContent;
+
 @end

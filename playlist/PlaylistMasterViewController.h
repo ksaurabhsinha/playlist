@@ -10,6 +10,7 @@
 
 @interface PlaylistMasterViewController : UIViewController
 
+- (IBAction)btnPressed:(id)sender;
 
 @end
 

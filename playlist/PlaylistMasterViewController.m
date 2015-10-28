@@ -7,6 +7,7 @@
 //
 
 #import "PlaylistMasterViewController.h"
+#import "PlaylistDetailViewController.h"
 
 @interface PlaylistMasterViewController ()
 
@@ -22,6 +23,16 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)btnPressed:(id)sender {
+    
+}
+
+- (void)prepareForSegue:(nonnull UIStoryboardSegue *)segue sender:(nullable id)sender {
+    PlaylistDetailViewController *playlistDetailController = segue.destinationViewController;
+    
+    playlistDetailController.labelNewContent = @"Pressed";
 }
 
 @end
